@@ -1,0 +1,39 @@
+{
+  "name": "@accitro/configmanager",
+  "devDependencies": {
+    "@types/node": "^15.12.3",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "typescript": "^4.3.4"
+  },
+  "version": "1.2.0",
+  "description": "Configuration manager for Accitro",
+  "main": "dist/ACM.js",
+  "types": "dist/ACM.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishonly": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Accitro/ConfigManager.git"
+  },
+  "keywords": [
+    "JSON",
+    "Config"
+  ],
+  "author": "Accitro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Accitro/ConfigManager/issues"
+  },
+  "homepage": "https://github.com/Accitro/ConfigManager#readme",
+  "peerDependencies": {
+    "yaml": "^1.10.2"
+  }
+}
